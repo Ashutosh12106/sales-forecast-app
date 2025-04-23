@@ -15,6 +15,28 @@ st.set_page_config(
     initial_sidebar_state="auto"
 )
 
+# Custom Background and Styling
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .css-18e3th9 {
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # Custom CSS for styling
 st.markdown(
     """
