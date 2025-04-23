@@ -67,7 +67,8 @@ st.markdown(
 )
 
 # Logo
-st.image("https://i.imgur.com/5cLsmcU.png", width=100)
+st.image("logo.png", width=120)  # Place logo.png in same directory
+
 
 # App Title and Description
 st.markdown("<h1 class='title-style'>VisionSales: AI Sales Forecast</h1>", unsafe_allow_html=True)
